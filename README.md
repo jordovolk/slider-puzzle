@@ -28,7 +28,7 @@ In this assignment we will make an image slider puzzle using jQuery.  To begin, 
 6. If the puzzle is solved you should change the background image to have the Green border instead of the brown one and replace the empty image with image 16 so that the picture is complete.
 
 ## Additional Features
-The following are extras that you can add to the working game.  Each will earn you 1 point of extra credit, completing all will earn you 5 extra credit points.  If you’ve missed assignments or not done as well as you’d like, here is your chance to make some of that back up.  I think the first are easiest, and the last the more difficult, but you may feel differently.  Earning all 5 points will require a good amount of effort, but the first two should be relatively straight-forward.
+The following are extras that you can add to the working game to earn you up to 8 extra credit HW points.  If you’ve missed assignments or not done as well as you’d like, here is your chance to make some of that back up.  
 
 ### Reset
 Add a button to the page so that the puzzle will reset back to the original layout.  There are a few different ways you might do this, and it is up to you to think up some options and decide what works best.  The button should look nice on the page, so this will require a little HTML/CSS too.
@@ -39,5 +39,5 @@ Add a help button to the page that will show/hide numbers over the images.  The 
 ### Extraordinary Win
 Do something extra special when the puzzle is solved.  Something more than a “You win” message or flashing colors.  I’m thinking like floating balloons, applause, rainbows or confetti.  We haven’t really talked about these things, so you’ll have to do some research for this one.  If you add any additional images or sounds, please do not infringe on copyright.  Only use things you have rights to use freely.  If any attributions are required, you should add those to a footer in the HTML.  Otherwise, please add a comment to indicate where any additional resources are from.
 
-### Transitions
-Use animations to slide the pieces more gracefully from cell to cell.
+### Additional Puzzle
+Add additional images so that you can solve different puzzles.  You should have a way to list and choose between at least two other images for the puzzle.  This puzzle is made from a photo I took of my cats and chopped up using MS Paint - very low tech.  (Again, don't infringe on any copyrights here.  Use your "safe-for-work/school" images or ones that allow free non-commercial use.)
