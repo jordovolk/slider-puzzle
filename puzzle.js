@@ -18,6 +18,8 @@ $(function () {
 
         }
 
+        isPuzzleSolved();
+
 
 
 
@@ -157,7 +159,11 @@ $(function () {
             console.log("index: " + index + "image alt #: " + image.attr("alt"));
 
             if (alt !== index + 1 && lastImageAlt !== "empty" && lastImageSrc !== "images/empty.jpg") {
+
+
+
                 puzzleSolved = false;
+
 
 
 
@@ -179,6 +185,8 @@ $(function () {
         return puzzleSolved;
     }
 
+
+
     var finishPuzzle = function () {
 
 
@@ -188,18 +196,18 @@ $(function () {
         $('#cell44').children().removeAttr("src");
 
 
-
         var newSRC = $('#cell44').children().attr("src", "images/16.jpg");
         var newAlt = $('#cell44').children().attr("alt", "16");
-
 
     }
 
 
 
+
+
+
     cells.on("click", tileClick);
 
-    isPuzzleSolved();
 
 
 
